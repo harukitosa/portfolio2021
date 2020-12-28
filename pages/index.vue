@@ -24,6 +24,12 @@
               >- github</a
             >
           </div>
+          <div>
+            <a class="text-black" href="https://harukitosa.com">- blog</a>
+          </div>
+          <div>
+            <a class="text-black" href="https://zenn.dev/tosa">- zenn</a>
+          </div>
         </div>
       </div>
 
@@ -55,6 +61,26 @@
           <p class="text-gray-500">Nuxt, Firestore, cloudfunction</p>
         </div>
       </div>
+
+      <div class="pt-12">
+        <h2 class="text-3xl">きみの宗教.com</h2>
+        <span>2020/10 ~ </span>
+        <div class="text-gray-500 container pt-4 pb-8">
+          誰でも気軽に教祖になれる！をキャッチコピーに作成したアイデアドリブンのサイト<br />
+          TwitterOGPによるアプリケーション制作がは流行したいたため、何か作ってみたいと思い作成。<br />
+          将来的に改修or撤収予定<br />
+          個人的には宗教法人が設立できる作業までネット上でできたらなと思っていますが、開発者本人が設立したことがないためその辺りのドメイン知識がある方がいましたらご連絡ください。
+        </div>
+        <a href="https://xn--w8j6c4b707y4gk.com/">
+          <p class="pt-4 pb-2">Top</p>
+          <img src="kimi-syukyou.png" alt="top" width="800" />
+        </a>
+
+        <div class="pt-8">
+          <p>使用技術</p>
+          <p class="text-gray-500">Nuxt, Firestore</p>
+        </div>
+      </div>
       <!-- works -->
     </div>
   </div>
@@ -67,7 +93,7 @@
   position: fixed;
   z-index: 10;
   box-sizing: border-box;
-  border: solid 10px black;
+  border: solid 7px black;
   border-radius: 100px 0 100px 0;
   overflow-y: scroll;
   top: 5px;
