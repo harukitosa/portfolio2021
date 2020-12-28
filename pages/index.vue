@@ -1,6 +1,6 @@
 <template>
-  <div class="wrapper">
-    <div class="container m-auto md:p-20 p-4 pt-8">
+  <div class="wrapper pt-12 bg-gray-100">
+    <div class="container m-auto md:p-20 p-4 pt-8 ">
       <div>
         <h1 class="text-4xl">
           Haruki Tosa
@@ -10,9 +10,20 @@
           <p>Web developer</p>
           <p>Meiji University Department of Computer Science</p>
         </div>
+        <div class="pt-20 text-gray-600" style="max-width:600px;">
+          何かを作るのと、何かについて話すことが大好きです。<br />
+          一人でほっといても永遠に喋り続けます<br />
+          特にWebの技術について学んだり、開発したり、遊んだりするのが好きです。<br />
+          ブランコに乗ることが好きです。<br />
+          抹茶のハーゲンダッツが好きです。<br />
+          読む予定のない本を買うことが好きです<br />
+          物語の中に出てくる夏休みが好きです。<br />
+          数式を書いたり問題を解いたりするのが好きです<br />
+          新しいものが好きです。<br />
+        </div>
         <div class="pt-20">
           <h2 class="text-3xl">
-            contact
+            link
           </h2>
           <div>
             <a class="text-black" href="https://twitter.com/tosa_now"
@@ -41,7 +52,10 @@
       <div>
         <h2 class="text-3xl">StudentSalary</h2>
         <span>2020/10 ~ </span>
-        <div class="text-gray-500 container pt-4 pb-8">
+        <div
+          class="text-gray-600 container pt-4 pb-8"
+          style="max-width: 800px;"
+        >
           学生でソフトウェア開発をしているエンジニアさんの時給を匿名で公開する掲示板サイト。<br />
           技能を持った学生が適切な給与かどうかを判断できる、
           インターンシップ、アルバイトを探している学生の意思決定の手助けになれるようなサイト運営を目指しています。
@@ -58,14 +72,17 @@
 
         <div class="pt-8">
           <p>使用技術</p>
-          <p class="text-gray-500">Nuxt, Firestore, cloudfunction</p>
+          <p class="text-gray-600">Nuxt, Firestore, cloudfunction</p>
         </div>
       </div>
 
       <div class="pt-12">
         <h2 class="text-3xl">きみの宗教.com</h2>
         <span>2020/10 ~ </span>
-        <div class="text-gray-500 container pt-4 pb-8">
+        <div
+          class="text-gray-600 container pt-4 pb-8"
+          style="max-width: 800px;"
+        >
           誰でも気軽に教祖になれる！をキャッチコピーに作成したアイデアドリブンのサイト<br />
           TwitterOGPによるアプリケーション制作がは流行したいたため、何か作ってみたいと思い作成。<br />
           将来的に改修or撤収予定<br />
@@ -78,7 +95,7 @@
 
         <div class="pt-8">
           <p>使用技術</p>
-          <p class="text-gray-500">Nuxt, Firestore</p>
+          <p class="text-gray-600">Nuxt, Firestore</p>
         </div>
       </div>
       <!-- works -->
@@ -94,7 +111,7 @@
   z-index: 10;
   box-sizing: border-box;
   border: solid 7px black;
-  border-radius: 100px 0 100px 0;
+  border-radius: 100px 0 0 0;
   overflow-y: scroll;
   top: 5px;
   bottom: 5px;
