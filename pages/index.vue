@@ -49,6 +49,11 @@
         </a>
         <p class="pt-4 pb-2">一覧画面</p>
         <img src="student-salary-2.png" alt="top" width="800" />
+
+        <div class="pt-8">
+          <p>使用技術</p>
+          <p class="text-gray-500">Nuxt, Firestore, cloudfunction</p>
+        </div>
       </div>
       <!-- works -->
     </div>
