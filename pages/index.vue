@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper pt-12 bg-black text-white">
+  <div class="wrapper pt-12 text-black">
     <div class="container m-auto md:p-20 p-4 pt-8 ">
       <div>
         <h1 class="text-4xl">
@@ -10,7 +10,7 @@
           <p>Web developer</p>
           <p>Meiji University Department of Computer Science</p>
         </div>
-        <div class="pt-20 text-gray-400" style="max-width:600px;">
+        <div class="pt-20 text-gray-600" style="max-width:600px;">
           何かを作るのと、何かについて話すことが大好きです。<br />
           一人でほっといても永遠に喋り続けます<br />
           特にWebの技術について学んだり、開発したり、遊んだりするのが好きです。<br />
@@ -27,28 +27,28 @@
           </h2>
           <div>
             <a
-              class="text-white hover:text-blue-400"
+              class="text-black hover:text-blue-400"
               href="https://twitter.com/tosa_now"
               >- twitter</a
             >
           </div>
           <div>
             <a
-              class="text-white hover:text-blue-400"
+              class="text-black hover:text-blue-400"
               href="https://github.com/harukitosa"
               >- github</a
             >
           </div>
           <div>
             <a
-              class="text-white hover:text-blue-400"
+              class="text-black hover:text-blue-400"
               href="https://harukitosa.com"
               >- blog</a
             >
           </div>
           <div>
             <a
-              class="text-white hover:text-blue-400"
+              class="text-black hover:text-blue-400"
               href="https://zenn.dev/tosa"
               >- zenn</a
             >
@@ -72,7 +72,7 @@
           ></span
         >
         <div
-          class="text-gray-400 container pt-4 pb-8"
+          class="text-gray-600 container pt-4 pb-8"
           style="max-width: 800px;"
         >
           学生でソフトウェア開発をしているエンジニアさんの時給を匿名で公開する掲示板サイト。<br />
@@ -89,7 +89,7 @@
 
         <div class="pt-8">
           <p>使用技術</p>
-          <p class="text-gray-400">Nuxt, Firestore, cloudfunction</p>
+          <p class="text-gray-600">Nuxt, Firestore, cloudfunction</p>
         </div>
       </div>
 
@@ -104,7 +104,7 @@
           ></span
         >
         <div
-          class="text-gray-400 container pt-4 pb-8"
+          class="text-gray-600 container pt-4 pb-8"
           style="max-width: 800px;"
         >
           誰でも気軽に教祖になれる！をキャッチコピーに作成したアイデアドリブンのサイト<br />
@@ -119,7 +119,7 @@
 
         <div class="pt-8">
           <p>使用技術</p>
-          <p class="text-gray-400">Nuxt, Firestore</p>
+          <p class="text-gray-600">Nuxt, Firestore</p>
         </div>
       </div>
       <!-- works -->
@@ -137,7 +137,7 @@
           Gin, Echo, Ruby on Rails, Laravel, Vue, React, Flutter
         </div>
 
-        <div class="pt-4 text-gray-400">
+        <div class="pt-4 text-gray-600">
           アーキテクチャなどを考えるのが好きです。<br />
           何を作るか？なぜ作るか？何を使ってつくるのか？<br />
           なぜその設計なのか？を考えるよう心がけています。<br />
